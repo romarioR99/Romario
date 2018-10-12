@@ -28,11 +28,11 @@ database server
 --------------------------------------------------------------------------------
 * Ya esta corregido para ejecutarlo de manera facil
 1) entrar a roles
-2) esjecutar      ./easy.sh
+2) ejecutar      ./easy.sh
 
 * Para jecutarlo paso a paso
 
 ---- PASOS A SEGUIR ---
-1) entrar a la carpeta roles
-2) ./makeall.sh
-3) ansible-playbook -i ../hosts ../site.yml
+1:   entrar a la carpeta roles
+2:   ./makeall.sh
+3:   ansible-playbook -i ../hosts ../site.yml
