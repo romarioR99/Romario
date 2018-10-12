@@ -21,6 +21,13 @@
 - name:  Create a database user
   mysql_user: name={{myname}} password={{mypass}} priv=*.*:ALL host=localhost state=present
   
+  
+  
+  
+  
+  
+  
+  
 #- name: Install Mysql package
 #  apt: name={{ item }} state=installed
 #  with_items:
