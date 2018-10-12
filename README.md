@@ -33,6 +33,6 @@ database server
 * Para jecutarlo paso a paso
 
 ---- PASOS A SEGUIR ---
-1:   entrar a la carpeta roles
-2:   ./makeall.sh
-3:   ansible-playbook -i ../hosts ../site.yml
+1)   entrar a la carpeta roles
+2)   ./makeall.sh
+3)   ansible-playbook -i ../hosts ../site.yml
