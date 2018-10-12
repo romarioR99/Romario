@@ -3,7 +3,7 @@
 # These don't have to be explicitly imported by vars_files: they are autopopulated.
 
 
-myname: romario
+myname: romario   # como se cambio de servicio usamos difernytes variables de entorno para
 mypass: 1234
 nomdb: Romario
 #mysqlservice: mysqld

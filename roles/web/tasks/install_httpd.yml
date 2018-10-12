@@ -1,7 +1,7 @@
 ---
 # These tasks install http and the php modules.
 
-#- name: Install http and php etc
+#"se cambia el servivio a apache2"
 - name: 1. install Apache
   apt: name=apache2 state=present
 

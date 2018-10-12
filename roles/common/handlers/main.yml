@@ -3,7 +3,7 @@
 # See http://docs.ansible.com/playbooks_intro.html for more information about handlers.
 
 - name: restart ntp
-  service: name=ntp state=restarted
+  service: name=ntp state=restarted # se cambió de nptd a npt ya que asi es para ubuntu
 
 - name: restart iptables
   service: name=iptables state=restarted
