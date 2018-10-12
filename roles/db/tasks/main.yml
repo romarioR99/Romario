@@ -1,7 +1,7 @@
 ---
 # This playbook will install mysql and create db user and give permissions.
 
-- name:  Install MariaDB server package
+- name:  Install MariaDB server package  # cambié el servicio de mysql a Mariadb ya que presentaba paquetes incompletos
   apt: name=mariadb-server state=present
 
 - name:  Start Mysql Service
