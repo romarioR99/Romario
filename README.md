@@ -30,6 +30,8 @@ database server
 * Ya esta corregido para ejecutarlo de manera facil
 1) entrar a roles
 2) ejecutar      ./easy.sh
+3) en caso de que aparezca este error : fatal: [server01]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariable: 'dict object' has no attribute 'ansible_default_ipv4'"} EJECUTE EL PASO 2 DE NUEVO Y SE ARREGLARÁ
+
 
 * Para ejecutarlo paso a paso
 
