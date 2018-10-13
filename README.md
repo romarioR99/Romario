@@ -31,7 +31,7 @@ database server
 1) entrar a roles
 2) ejecutar      ./easy.sh
 
-* Para jecutarlo paso a paso
+* Para ejecutarlo paso a paso
 
 ---- PASOS A SEGUIR ---
 1)   entrar a la carpeta roles
