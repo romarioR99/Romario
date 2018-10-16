@@ -5,5 +5,5 @@
 - name: restart ntp
   service: name=ntp state=restarted # se cambió de nptd a npt ya que asi es para ubuntu
 
-- name: restart iptables
-  service: name=iptables state=restarted
+#- name: restart iptables
+ # service: name=iptables state=restarted
